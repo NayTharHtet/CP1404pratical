@@ -136,7 +136,7 @@ def add_new_project(projects):
     name = input("Let's add a new project. \nName: ")
     start_date = input("Start date (dd/mm/yyyy): ")
     priority = int(input("Priority: "))
-    cost_estimate = float(input("Cost estimate:$ "))
+    cost_estimate = float(input("Cost estimate: "))
     completion_percentage = int(input("Percent complete: "))
     project = Project(name, start_date, priority, cost_estimate, completion_percentage)
     projects.append(project)
